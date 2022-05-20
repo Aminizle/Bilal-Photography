@@ -8,7 +8,8 @@
 */
 
 :root {
-	--main-accent-color: #1597BB; /*changes all accent color except thumbnail shadowbox accent*/
+	--main-accent-color: #1597BB; /*changes all accent color except thumbnail shadowbox */
+	--main-background-color: #222831;
 }
 
 
@@ -842,7 +843,7 @@ input, select, textarea {
 		top: 0;
 		width: 22.5em;
 		height: 100%;
-		background: #171717;
+		background: var(--main-background-color);
 		outline: 0;
 		overflow-x: hidden;
 		overflow-y: auto;
